@@ -16,7 +16,7 @@ from botocore.client import Config
 from pyspark.sql.functions import col, udf, lit
 from pyspark.sql.types import StructType, StringType
 
-# Configure logging
+# Configure logging 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("claimant-billingestion-address-validation-job")
 
