@@ -1,0 +1,32 @@
+DROP TABLE IF EXISTS txm_bitx.subscriber;
+
+CREATE TABLE txm_bitx.subscriber (
+    subscriber_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    sender_payer_id VARCHAR(32),
+    subscriber_tax_id VARCHAR(9),
+    subscriber_name VARCHAR(130),
+    date_of_birth DATE,
+    subscriber_gender VARCHAR(1),
+    subscriber_address_line_1 VARCHAR(100),
+    subscriber_address_line_2 VARCHAR(100),
+    subscriber_city VARCHAR(60),
+    subscriber_state VARCHAR(60),
+    subscriber_country_code VARCHAR(2),
+    zip_code VARCHAR(9),
+    subscriber_telephone_number BIGINT,
+    employee_last_name VARCHAR(80),
+    employee_first_name VARCHAR(80),
+    employee_middle_initial VARCHAR(80),
+    employer_name VARCHAR(80),
+    total_estimated_amount_due NUMERIC(15,2),
+    insured_id_number VARCHAR(30),
+    insured_policy_number VARCHAR(20),
+    employer_code VARCHAR(20),
+    create_user VARCHAR(50),
+    create_timestamp DATETIME(6),
+    update_user VARCHAR(50),
+    update_timestamp DATETIME(6),
+    FOREIGN KEY (bill_id) REFERENCES bill_header(bill_id),
+    INDEX idx_bill_id (bill_id)
+);

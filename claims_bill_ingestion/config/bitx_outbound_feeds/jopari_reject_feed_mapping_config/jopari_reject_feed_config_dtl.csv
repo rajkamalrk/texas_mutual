@@ -1,0 +1,5 @@
+field_order|field_name|field_length|sql_mapping_logic|record_type
+1|recordtype|2|"rpad('RJ',2,' ')"|"DT"
+2|jopari_bill_id|15|"rpad(unique_bill_id,15,' ')"|"DT"
+3|reject_code|4|"lpad('31',4,' ')"|"DT"
+4|current_date|8|"rpad(date_format(current_timestamp(), 'yyyyMMdd'),8,' ')"|"DT"

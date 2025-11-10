@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS txm_ndc;
+CREATE DATABASE txm_ndc;
+USE txm_ndc;

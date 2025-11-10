@@ -1,0 +1,5 @@
+# txm_ndc:
+python3 db_deployment.py ndc-scripts/config/ndc_config.ini config/common_config.ini PROD
+
+# txm_ndc_logs:
+python3 db_deployment.py logs-scripts/ndc-log-scripts/table-config/table_config.ini config/common_config.ini PROD

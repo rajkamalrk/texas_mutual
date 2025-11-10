@@ -1,0 +1,7 @@
+{
+    "name": "provider-record-creation",
+    "version": "1.0.0",
+    "dependencies": {
+        "csv-parser": "^3.2.0"
+    }
+}

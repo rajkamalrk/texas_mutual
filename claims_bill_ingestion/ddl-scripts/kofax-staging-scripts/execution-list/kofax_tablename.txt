@@ -1,0 +1,10 @@
+kofax_header.sql
+kofax_cms1500.sql
+kofax_cms1500_line.sql
+kofax_cms1500_attachments.sql
+kofax_dwc066.sql
+kofax_dwc066_line.sql
+kofax_dwc066_attachments.sql
+kofax_ub04.sql
+kofax_ub04_line.sql
+kofax_ub04_attachments.sql

@@ -1,0 +1,2 @@
+ALTER TABLE txm_ndc.ndc_data ADD COLUMN ndc_summary_id INT AFTER ndc_record_status;
+ALTER TABLE txm_ndc.ndc_data ADD CONSTRAINT ndc_data_ibfk_1 FOREIGN KEY (ndc_summary_id) REFERENCES txm_ndc.ndc_summary_data (ndc_summary_id);

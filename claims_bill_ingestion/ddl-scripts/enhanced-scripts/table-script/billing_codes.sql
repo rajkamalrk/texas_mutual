@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS txm_bitx.billing_codes;
+
+CREATE TABLE txm_bitx.billing_codes (
+    billing_codes_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    treatment_id INT,
+    code_type VARCHAR(25),
+    sequence_number INT,
+    diagnosis_code_qualifier VARCHAR(6),
+    diagnosis_code_qualifier_icd VARCHAR(6),
+    diagnosis_code VARCHAR(10),
+    occurance_code VARCHAR(2),
+    occurance_date DATE,
+    condition_codes VARCHAR(2),
+    value_code VARCHAR(2),
+    value_code_amount DECIMAL(10,2),
+    occurance_span_code VARCHAR(2),
+    occurance_span_from_date DATE,
+    occurance_span_thru_date DATE,
+    procedure_code_qualifier VARCHAR(6),
+    procedure_code_qualifier_icd VARCHAR(6),
+    procedure_code VARCHAR(10),
+    procedure_date DATE,
+    create_user VARCHAR(50),
+    create_timestamp DATETIME(6),
+    update_user VARCHAR(50),
+    update_timestamp DATETIME(6),
+    FOREIGN KEY (bill_id) REFERENCES bill_header(bill_id),
+    INDEX idx_bill_id (bill_id),
+    INDEX idx_treatment_id (treatment_id)
+);

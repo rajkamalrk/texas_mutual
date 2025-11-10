@@ -1,0 +1,10 @@
+code,description,translate_to
+ACKL,Reconsideration Acknowledgement,AVACKL
+APPL,Appeals,AVPRADC
+LTTR,Letters - Non Appointment,AVLTTR
+MR,Medical Reports,AVADDMD
+OTR,Other,AVOTR
+PRADC,Preauthorization Decision,AVPRADC
+PRAUT,Preauthorization Request,AVPRAUT
+STATE,State Forms,AVSTATE
+TCHL,TechHealth Report,AVTCHL

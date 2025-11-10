@@ -1,0 +1,12 @@
+field_order|field_name|field_length|sql_mapping_logic|record_type
+1|Record_Type|2|"rpad('BU',2,' ')"|"BU"
+2|Client_Code |4|"rpad(Client_Code,4,' ')"|"BU"
+3|Bill_Sequence|10|"rpad('',10,' ')"|"BU"
+4|Import_Bill_ID|50|"rpad(Bill_DCN,50,' ')"|"BU"
+5|Bill_DCN|50|"rpad(Bill_DCN,50,' ')"|"BU"
+6|Bill_Document_Control_Type|2|"rpad('',2,' ')"|"BU"
+7|UDF_Code|12|"rpad(udf_code,12,' ')"|"BU"
+8|UDF_Owner_Flag|1|"rpad(UDF_Owner_Flag,1,' ')"|"BU"
+9|Short_Description|40|"rpad('',40,' ')"|"BU"
+10|Filler|105|"rpad('',105,' ')"|"BU"
+11|UDF_Data_Value|6000|"rpad(UDF_Data_Value,6000,' ')"|"BU"

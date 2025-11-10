@@ -1,0 +1,25 @@
+DROP TABLE IF EXISTS txm_bitx_staging.jopari_bill_detail_additional_rx_data_51;
+CREATE TABLE txm_bitx_staging.jopari_bill_detail_additional_rx_data_51 (
+      bill_detail_additional_rx_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+      bill_header_id INT NOT NULL,
+      record_type_code VARCHAR(2),
+      unique_bill_id VARCHAR(15),
+      line_number INT,
+      ndc_code VARCHAR(11),
+      drug_name VARCHAR(80),
+      prescription_date DATE,
+      prescription_number VARCHAR(15),
+      dispense_as_written_code VARCHAR(1),
+      brand_indicator VARCHAR(1),
+      fill_count INT,
+      days_supply INT,
+      basis_of_cost_deter_code INT,
+      usual_customary_charge Decimal(10,2),
+      dispensing_fee Decimal(10,2),
+      create_user VARCHAR(50),
+      update_user VARCHAR(50),
+      create_timestamp DATETIME(6),
+      update_timestamp DATETIME(6),
+      FOREIGN KEY (bill_header_id) REFERENCES jopari_bill_header_record_10 (bill_header_id),
+      INDEX idx_bill_header_id (bill_header_id)
+);

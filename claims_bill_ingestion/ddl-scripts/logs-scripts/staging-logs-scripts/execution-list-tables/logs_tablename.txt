@@ -1,0 +1,2 @@
+batch_staging_details.sql
+batch_staging_error_details.sql

@@ -1,0 +1,5 @@
+# txm_deleted_invoice:
+python3 db_deployment.py deleted-invoice-staging-scripts/config/deleted_invoice_config.ini config/common_config.ini PROD
+
+# txm_deleted_invoice_logs:
+python3 db_deployment.py logs-scripts/inbound-feeds-log-scripts/table-config/table_config.ini config/common_config.ini PROD

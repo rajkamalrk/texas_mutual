@@ -1,0 +1,16 @@
+bill_header.sql
+bill_notes.sql
+bill_notes_line.sql
+billing_codes.sql
+billing_documents.sql
+patient.sql
+provider.sql
+subscriber.sql
+hospitalization_treatment.sql
+hospitalization_treatment_line.sql
+professional_treatment.sql
+professional_treatment_line.sql
+pharmacy_line.sql
+plan_details.sql
+invoice_status.sql
+invoice_step_status.sql

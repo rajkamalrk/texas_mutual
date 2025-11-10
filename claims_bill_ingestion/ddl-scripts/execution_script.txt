@@ -1,0 +1,37 @@
+# txm_bitx_provider:
+python3 db_deployment.py provider-scripts/config/provider_config.ini config/common_config.ini PROD
+
+# txm_bitx:
+python3 db_deployment.py enhanced-scripts/config/enhanced_config.ini config/common_config.ini PROD
+
+# txm_bitx_eci_staging:
+python3 db_deployment.py eci-staging-scripts/config/eci_config.ini config/common_config.ini PROD
+
+# txm_bitx_kofax_staging:
+python3 db_deployment.py kofax-staging-scripts/config/kofax_config.ini config/common_config.ini PROD
+
+# txm_bitx_common: (Update the Sequence starting based on the Environment)
+python3 db_deployment.py common-scripts/config/common_config.ini config/common_config.ini PROD
+
+# txm_bitx_logs:
+python3 db_deployment.py logs-scripts/bitx-logs-scripts/table-config/table_config.ini config/common_config.ini PROD
+python3 db_deployment.py logs-scripts/bitx-logs-scripts/sp-config/logs_sp.ini config/common_config.ini PROD
+
+# txm_bitx_enhanced_logs:
+python3 db_deployment.py logs-scripts/enhanced-log-scripts/table-config/table_config.ini config/common_config.ini PROD
+python3 db_deployment.py logs-scripts/enhanced-log-scripts/sp-config/logs_sp.ini config/common_config.ini PROD
+
+# txm_bitx_enrichment_logs:
+python3 db_deployment.py logs-scripts/enrichment-logs-scripts/table-config/table_config.ini config/common_config.ini PROD
+python3 db_deployment.py logs-scripts/enrichment-logs-scripts/sp-config/logs_sp.ini config/common_config.ini PROD
+
+# txm_bitx_provider_logs:
+python3 db_deployment.py logs-scripts/provider-logs-scripts/table-config/table_config.ini config/common_config.ini PROD
+python3 db_deployment.py logs-scripts/provider-logs-scripts/sp-config/logs_sp.ini config/common_config.ini PROD
+
+# txm_bitx_staging_logs:
+python3 db_deployment.py logs-scripts/staging-logs-scripts/table-config/table_config.ini config/common_config.ini PROD
+python3 db_deployment.py logs-scripts/staging-logs-scripts/sp-config/log_sp.ini config/common_config.ini PROD
+
+# txm_bitx_staging:
+python3 db_deployment.py staging-scripts/config/bill_config.ini config/common_config.ini PROD

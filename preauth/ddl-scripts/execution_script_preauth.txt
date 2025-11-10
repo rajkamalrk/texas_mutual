@@ -1,0 +1,8 @@
+#preauth_staging:
+python3 db_deployment.py preauth-staging-scripts/config/preauth_staging.ini config/common_config.ini DEV
+
+#preauth_enhanced:
+python3 db_deployment.py preauth-enhanced-scripts/config/preauth_enhanced.ini config/common_config.ini DEV
+
+#preauth_logs:
+python3 db_deployment.py preauth-log-scripts/config/preauth_log.ini config/common_config.ini DEV

@@ -1,0 +1,35 @@
+Public-id|ActivityPatternCode|ActivityRelatedTo|EffectiveDate|ExpirationDate|MapType|NoteRelatedTo|Note Subject |NoteTopic|Source|SourceType
+notecontrol:29|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|ADJUSTER
+notecontrol:30|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|ANCILLARY PROVIDER
+notecontrol:31|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|ATTORNEY
+notecontrol:32|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|CARRIER
+notecontrol:33|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Case Management|medical|GENEX|CASE ASSIGNED
+notecontrol:34|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Case Management|medical|GENEX|CASE CLOSURE REPORT
+notecontrol:35|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|CLAIMANT
+notecontrol:36|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|CLAIMANT'S FAMILY
+notecontrol:37|preauthorization_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Preauthorization|medical|GENEX|CLIENT_CORRESPONDENCE
+notecontrol:38|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|EMPLOYER
+notecontrol:39|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|FIRST REPORT OF INJURY
+notecontrol:40|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|GOVERNMENT AGENCY
+notecontrol:41|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|HOSPITAL
+notecontrol:42|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|INITIAL PC ATTEMPT - OTHER
+notecontrol:43|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|INITIAL PC TO - OTHER
+notecontrol:44|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|OTHER
+notecontrol:45|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|OTHER FACILITY
+notecontrol:46|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|PHYSICIAN
+notecontrol:47|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|POTENTIAL EMPLOYER(S)
+notecontrol:48|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|REFERRAL SOURCE
+notecontrol:49|preauthorization_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Preauthorization|medical|GENEX|REQ_FOR_UR_ASSIGNED
+notecontrol:50|preauthorization_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Preauthorization|medical|GENEX|REQ_FOR_UR_ASSIGNED_APPEAL
+notecontrol:51|preauthorization_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Preauthorization|medical|GENEX|REQ_FOR_UR_ASSIGNED_RECON
+notecontrol:52|preauthorization_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Preauthorization|medical|GENEX|REVIEW_WITHDRAWN_CID
+notecontrol:53|preauthorization_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Preauthorization|medical|GENEX|REVIEW_WITHDRAWN_CLIENT
+notecontrol:54|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|SUPERVISOR - N/C
+notecontrol:55|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|TRAINING FACILITY
+notecontrol:56|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|TRIAGE ONLY
+notecontrol:57|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|TX MDA RESEARCH
+notecontrol:58|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|TX ODG RESEARCH
+notecontrol:59|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|UNION
+notecontrol:60|case_mgt_ref_adv|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|N|Medical Details|External-Case Management|medical|GENEX|VOC. COUNSELOR
+notecontrol:61|out_network_adv|Medical Details|2021-01-02 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|External-Out of Network Approval|medical|GENEX|OUT OF NETWORK MANAGEMENT
+notecontrol:62|preauthorization_cas|Medical Details|2021-01-01 00:00:00.000|2039-12-31 00:00:00.000|B|Medical Details|Uncategorized PreAuth/Case Management info|medical|GENEX|DEFAULT

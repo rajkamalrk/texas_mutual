@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS txm_bitx.hospitalization_treatment;
+
+CREATE TABLE txm_bitx.hospitalization_treatment (
+    hospitalization_treatment_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    type_of_bill VARCHAR(4),
+    from_service_bill_date DATE,
+    thru_service_bill_date DATE,
+    admission_type VARCHAR(2),
+    admission_source VARCHAR(2),
+    admission_date DATE,
+    admission_hour VARCHAR(2),
+    discharge_hour VARCHAR(2),
+    patient_discharge_status VARCHAR(2),
+    accident_state VARCHAR(2),
+    date_onset_similiar_symptoms DATE,
+    payer_identification_name VARCHAR(16),
+    treatment_authorization_number VARCHAR(30),
+    pps_code VARCHAR(3),
+    admitting_diagnosis_code varchar(25),
+    diagnosis_visit_reason_code varchar(8),
+    external_cause_of_injury VARCHAR(2),
+    external_cause_of_injury_2 VARCHAR(2),
+    external_cause_of_injury_3 VARCHAR(2),
+    create_user VARCHAR(50),
+    create_timestamp DATETIME(6),
+    update_user VARCHAR(50),
+    update_timestamp DATETIME(6),
+    FOREIGN KEY (bill_id) REFERENCES bill_header(bill_id),
+    INDEX idx_bill_id (bill_id)
+);

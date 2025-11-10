@@ -1,0 +1,3 @@
+field_order|field_name|field_length|sql_mapping_logic|record_type
+1|recordtype|2|"rpad('RT',2,' ')"|"TL"
+2|invoice_count|6|"lpad(invoice_count,6,'0')"|"TL"

@@ -1,0 +1,25 @@
+DROP TABLE IF EXISTS txm_bitx_staging.jopari_institutional_record_31;
+CREATE TABLE txm_bitx_staging.jopari_institutional_record_31 (
+institutional_data_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+bill_header_id INT NOT NULL,
+record_type_code VARCHAR(2),
+unique_bill_id VARCHAR(15),
+admission_hour VARCHAR(2),
+admission_type_code VARCHAR(2),
+admission_source_code VARCHAR(2),
+discharge_hour VARCHAR(2),
+discharge_status_code VARCHAR(2),
+drg_code VARCHAR(3),
+procedure_codes VARCHAR(130),
+occurance_codes VARCHAR(100),
+occurance_span_codes VARCHAR(100),
+condition_codes VARCHAR(50),
+value_codes VARCHAR(200),
+icd10_procedure_codes VARCHAR(150)  ,
+create_user VARCHAR(50),
+update_user VARCHAR(50),
+create_timestamp DATETIME(6),
+update_timestamp DATETIME(6),
+FOREIGN KEY (bill_header_id) REFERENCES jopari_bill_header_record_10 (bill_header_id),
+INDEX idx_bill_header_id (bill_header_id)
+);

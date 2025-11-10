@@ -1,0 +1,8 @@
+field_order|field_name|field_length|sql_mapping_logic|record_type
+1|RecType|2|"rpad('RH',2,' ')"|"HD"
+2|Process_Code|30|"rpad('trans_to',5,' ')"|"HD"
+3|Current_Date|8|"rpad(date_format(current_timestamp(), 'yyyyMMdd'),8,' ')"|"HD"
+4|Current_Time|9|"rpad(date_format(current_timestamp(), 'HHmmssSSS'),9,' ')"|"HD"
+5|TMIC|32|"rpad('TMIC',32,' ')"|"HD"
+6|JRH05|32|"rpad('',32,' ')"|"HD"
+7|JRH06|40|"rpad('',40,' ')"|"HD"

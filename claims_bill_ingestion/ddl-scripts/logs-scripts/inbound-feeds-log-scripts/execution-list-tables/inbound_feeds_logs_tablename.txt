@@ -1,0 +1,3 @@
+batch_inbound_feeds_master.sql
+batch_inbound_feeds_step_details.sql
+batch_inbound_feeds_error_details.sql
